@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>WORD COUNT</h1>
+    <a href="{% url 'about' %}">About Page</a>
+    <form action="{% url 'count' %}" method="post">
+        {% csrf_token %}
+        <textarea cols="40" rows="5" name="fulltext"></textarea>
+        <br/>
+        <input type="submit" value="Count!" />
+    </form>
+</body>
+</html>
