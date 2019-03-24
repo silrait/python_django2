@@ -1,0 +1,13 @@
+*.pyc
+portfolio/static/
+portfolio/__pycache__/
+portfolio/local_settings.py
+portfolio/db.sqlite3
+*.log
+*.pot
+media
+.idea/
+wordcount-project/db.sqlite3
+wordcount/__pycache__/
+myvenv/
+
